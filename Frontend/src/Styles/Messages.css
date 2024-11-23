@@ -1,0 +1,89 @@
+.email-summary {
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    background-color: #ffffff;  
+  }
+
+  .email-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .email-summary:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .email-subject {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .email-sender {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .email-time {
+    font-weight: bold;
+    text-align: right; 
+    margin-right: 5px; 
+  }
+  
+  .email-logo {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  
+  .email-logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .email-details {
+    margin-top: 0px;
+    background-color: #ffffff; 
+    margin-left: 5px;
+  }
+  
+  .email-details table,
+  .email-details td,
+  .email-details th {
+    background-color: #ffffff; 
+  }
+
+  .email-summary:hover .email-details {
+    background-color: #f9f9f9; 
+  }
+  
+  .email-summary:hover .email-details table,
+  .email-summary:hover .email-details td,
+  .email-summary:hover .email-details th {
+    background-color: #f9f9f9; 
+  }
+
+  .email-action {
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+  }
+
+  .email-action button {
+    cursor: pointer;
+    padding: 2px;
+    background-color: #ECECEC; 
+    color: black; 
+    font-family: Verdana; 
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .email-action button:hover {
+    background-color: lightgray;
+  }

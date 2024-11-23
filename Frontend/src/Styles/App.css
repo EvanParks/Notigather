@@ -1,0 +1,108 @@
+.main-container {
+  display: flex;
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw; 
+  overflow: hidden; 
+}
+
+.background {
+  position: fixed;      
+  top: 0;               
+  left: 0;              
+  width: 100vw;         
+  height: 100vh;         
+  z-index: -1; 
+  background-image: url('../Images/background.png');
+  background-size: cover;                     
+  background-position: center; 
+}
+
+.notigather {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%;
+  max-width: 50%;
+}
+
+.notigather img {
+  max-width: 100%; 
+  max-height: 100%; 
+  width: auto; 
+  height: auto; 
+}
+
+.app-container {
+  flex: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center ; 
+  height: 100%; 
+  max-width: 50%;
+}
+
+.App {
+  padding: 60px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff; 
+  margin: 10%; 
+}
+
+.app-container h1 {
+  text-align: center; 
+}
+
+.app-container p {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.app-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: stretch; 
+  padding: 10px; 
+}
+
+.app-container input {
+  font-size: 16px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  width: 300px; 
+  box-sizing: border-box; 
+}
+
+.app-container button {
+  font-size: 16px; 
+  padding: 10px; 
+  background-color: #4285F4; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  width: 300px; 
+}
+
+.app-container button:hover {
+  background-color: #015cfa; 
+}
+
+.app-container .error {
+  color: red; 
+  text-align: center; 
+}
+
+.app-container .createaccount {
+  margin-top: auto; 
+}
